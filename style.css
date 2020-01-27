@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("bcg_img.jpg");
+    background-size: 100%;
+    background-position-y: bottom;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.wybor_tabel {
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.nawigacja {
+    background-color: black;
+}
+
+.white-line {
+    margin: 5px 0;
+    background-color: white;
+    height: 2px;
+}
+
+.nawigacja2 {
+    background-color: black;
+    margin-bottom: 2px;
+}
+
+.CRUD_albumy {
+    color: white;
+    padding: 15px;
+    margin-top: 10vh;
+    background: rgba(0,0,0,0.88);
+    font-size: 18px;
+}
+
+.CRUD_albumy a {
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.create label {
+    margin-top: 12px;
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+.text-danger {
+    font-size: 14px;
+}
+
+.Prawidlowo_dodany_zespol {
+    font-size: 50px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .CRUD_albumy {
+        font-size: 14px;
+    }
+
+    .Prawidlowo_dodany_zespol {
+        font-size: 30px;
+    }
+}
