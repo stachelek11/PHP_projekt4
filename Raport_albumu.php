@@ -25,6 +25,7 @@
             <span>Wszystkie albumy zespolu "Enej"</span><br>
             <a href="FPDF/PDF_albumy_dow.php" class="col-12 btn btn-outline-light">Pobierz</a>
             <a href="FPDF/PDF_albumy.php" target="_blank" class="col-12 btn btn-outline-light">Wyświetl</a>
+            <a href="wyslij1.php" class="col-12 btn btn-outline-light">Wyślij</a>
         </div>
     </div>
 </main>
